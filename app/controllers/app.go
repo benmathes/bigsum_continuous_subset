@@ -13,3 +13,8 @@ func (c App) Index() revel.Result {
   }
   return c.Render(m)
 }
+
+
+func (c App) SendArray(array string) revel.Result {
+  return c.Render(array)
+}
